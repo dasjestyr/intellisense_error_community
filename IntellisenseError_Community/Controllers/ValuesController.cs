@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using IntellisenseError_Community.Lib;
 
 namespace IntellisenseError_Community.Controllers
 {
@@ -13,6 +14,7 @@ namespace IntellisenseError_Community.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            var testClass = new TestClass();
             return new string[] { "value1", "value2" };
         }
 

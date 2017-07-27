@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26720.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntellisenseError_Community", "IntellisenseError_Community\IntellisenseError_Community.csproj", "{F7700C8F-C594-445E-BA84-5037476631CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntellisenseError_Community.Lib", "IntellisenseError_Community.Lib\IntellisenseError_Community.Lib.csproj", "{F33DFF65-1F64-4052-9343-8BAAB1052AB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F7700C8F-C594-445E-BA84-5037476631CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7700C8F-C594-445E-BA84-5037476631CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7700C8F-C594-445E-BA84-5037476631CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33DFF65-1F64-4052-9343-8BAAB1052AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33DFF65-1F64-4052-9343-8BAAB1052AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33DFF65-1F64-4052-9343-8BAAB1052AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33DFF65-1F64-4052-9343-8BAAB1052AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
